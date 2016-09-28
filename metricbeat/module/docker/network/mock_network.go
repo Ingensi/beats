@@ -3,6 +3,7 @@ package network
 import (
 	"github.com/stretchr/testify/mock"
 )
+
 // Mock of NetworkCalculator interface
 type MockNetworkCalculator struct {
 	mock.Mock
