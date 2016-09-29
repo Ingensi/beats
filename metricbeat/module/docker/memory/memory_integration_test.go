@@ -32,6 +32,5 @@ func getConfig() map[string]interface{} {
 		"module":     "docker",
 		"metricsets": []string{"memory"},
 		"hosts":      []string{"localhost"},
-		"socket":     "unix:///var/run/docker.sock",
 	}
 }
